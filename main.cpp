@@ -1,8 +1,7 @@
 /*
-    Trevor Dunn
-    This is a project designed to help me work with classes in my Programming
-   Fundamentals II class. This is similar to, but not directly derived from,
-   code we are working on in class.
+    Authors:
+    Start Date:
+    Purpose/Description:
 
 */
 
