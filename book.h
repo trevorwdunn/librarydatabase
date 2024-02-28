@@ -13,10 +13,10 @@ private:
   double price;
 
 public:
-  void setTitle(std::string, bookTitle);
-  void setDescription(std::string, bookDescription);
-  void setRating(int, rating);
-  void setPrice(double, price);
+  void setTitle(std::string bookTitle);
+  void setDescription(std::string bookDescription);
+  void setRating(int rating);
+  void setPrice(double price);
   void Print();
 };
 
