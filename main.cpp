@@ -1,8 +1,8 @@
 /*
-    Authors:
-    Start Date:
-    Purpose/Description:
-
+    Authors:Trevor Dunn, Ian
+    Start Date:February 27, 2024
+    Purpose/Description: This is a library database document designed to help us
+    retain our programming skills.
 */
 
 #include "book.h"
@@ -46,4 +46,9 @@ std::vector<Book> getBookInfoFromFile() {
   std::string fileName;
   std::cout << "What is the file name?";
   std::cin >> fileName;
+
+  std::ifstream file(fileName);
+  if (!file) {
+    throw std::runtime_error("File could not be opened. Please try again.");
+  }
 }
